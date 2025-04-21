@@ -26,7 +26,7 @@ A first-person shooter (FPS) game built with Unity, featuring interactive missio
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/RatanaJr/3D-Shooter-Game.git
+   git clone https://github.com/Zhandos200/3D-Shooter-Game.git
 
 Open the project folder via Unity Hub.
 
