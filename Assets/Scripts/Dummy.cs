@@ -31,7 +31,8 @@ public class Dummy : MonoBehaviour, IDamagable
         currentHealth = maxHealth;
         mesh.sharedMaterial = whiteMat;
     }
-
+//the function that will be called when the object is damaged
+    //it will be called by the player when it hits the object
     public void TakeDamage(int damage)
     {
         lastTimeDamaged = Time.time;

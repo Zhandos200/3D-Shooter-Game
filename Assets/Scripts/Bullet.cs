@@ -28,7 +28,7 @@ public class Bullet : MonoBehaviour
         meshRenderer = GetComponent<MeshRenderer>();
         trailRenderer = GetComponent<TrailRenderer>();
     }
-
+/// Setup the bullet with the given parameters
     public void BulletSetup(LayerMask allyLayerMask,int bulletDamage, float flyDistance = 100, float impactForce = 100)
     {
         this.allyLayerMask = allyLayerMask;
